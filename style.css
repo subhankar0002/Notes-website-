@@ -1,0 +1,133 @@
+*{
+ padding: 0px;
+ margin: 0px;
+}
+.fullbody{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(155deg,#cf9aff,#95c0ff);
+    color: white;
+    
+}
+header{
+    padding-top: 5em;
+    padding-left: 4em;
+
+}
+.notes-heading{
+    font-size: 1.8em;
+    display: flex;
+    color: rgb(27, 27, 91);
+}
+.fa-regular{
+    font-size: 1em;
+}
+.notes-heading h4{
+    padding-left: .3em;
+    margin-bottom: .5em;
+}
+.creat-note{
+    font-weight: 500;
+    padding: 6px 15px;
+    border: none;
+    border-radius: 10px;
+    color: aliceblue;
+    background: linear-gradient(#9418fd,#571094);
+    font-size: 16px;
+    align-items: center;
+    cursor: pointer;
+    
+}
+.main{
+    padding-top: 1em;
+    padding-left: 5em;
+}
+.main p{
+    margin-top: .6em;
+    overflow: auto;
+    border-radius: 15px;
+
+}
+.input{
+    font-family :'Courier New', Courier, monospace;
+    position: relative;
+    width: 30em;
+    height: 10em;
+    background: #ffffff;
+    border: none;
+    border-radius: 10px ;
+    color: #333;
+    padding: 12px 8px 8px 14px;
+    outline: none;
+    font-size: 16px;
+    font-weight: 500;
+
+}
+.fa-solid{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+.save{
+    font-weight: 500;
+    padding: 6px 15px;
+    border: none;
+    border-radius: 10px;
+    color: aliceblue;
+    background: linear-gradient(#79aee0,#2312be);
+    font-size: 16px;
+    align-items: center;
+    cursor: pointer;
+}
+.delete{
+    font-weight: 500;
+    padding: 6px 15px;
+    border: none;
+    border-radius: 10px;
+    color: aliceblue;
+    background: linear-gradient(#fd7f18,#941010);
+    font-size: 16px;
+    align-items: center;
+    cursor: pointer;
+}
+.function{
+    width: 30em;
+    display: flex;
+    justify-content: center;
+    margin-top: .6em;
+    gap: 10px;
+}
+@media(max-width:550px){
+    header{
+        padding-top: 3em;
+        padding-left: 2em;
+    
+    }
+    .main{
+        padding-top: 2em;
+        padding-left: 2.5em;
+        padding-right: 2.5em;
+    }
+    .input{
+        position: relative;
+        width: auto;
+        height: 10em;
+        background: #ffffff;
+        border: none;
+        border-radius: 10px ;
+        color: #333;
+        padding: 12px 8px 8px 14px;
+        outline: none;
+        font-size: 16px;
+        font-weight: 500;
+    }
+    .function{
+        margin-bottom: .6em;
+        width: auto;
+        display: flex;
+        justify-content: center;
+        margin-top: .6em;
+        gap: 10px;
+    }
+}
